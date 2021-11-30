@@ -1,5 +1,5 @@
 - name: Play to automate process
-  hosts: all
+  hosts: app1:app2:appdb1:frontend1
   become: yes
   vars:
     satellite_activationkey: gpte-labs-rhel8
