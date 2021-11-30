@@ -4,3 +4,8 @@ localhost ansible_connection=local
 [control_node:vars]
 GUID="{{ lookup('env', 'GUID') }}"
 
+[control]
+app1
+app2
+appdb1
+frontend1
